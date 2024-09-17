@@ -9,7 +9,7 @@ start_time = time.time()
 df = pd.read_csv('output_urls.csv')
 
 domains_df = pd.read_csv('shorturl.csv')
-tld_list = pd.read_csv('/Users/yurainagaki/Desktop/Phishing_Automation/newgTLD.csv')
+tld_list = pd.read_csv('newgTLD.csv')
 domains_list = domains_df['domain'].tolist()
 
 # TLDリストをセットに変換
